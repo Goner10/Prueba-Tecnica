@@ -1,0 +1,30 @@
+
+.container-prod {
+    background-color: #E3F2FD; /* Cambia el color de fondo a tu preferencia */
+    padding: 80px;
+  }
+  
+
+
+.table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f5faff; /* Cambio de color de fondo a azul claro */
+  }
+  
+  .rowsHead {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #eaf2ff; /* Cambio de color de fondo a azul más claro */
+  }
+  
+  .rowsBody {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }

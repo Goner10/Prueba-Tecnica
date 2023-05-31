@@ -3,7 +3,7 @@ import './App.scss'
 
 
 import Home from "./Components/Home/Home";
-
+import Products from "./Components/Products/Products";
 
 function App() {
  
@@ -13,6 +13,7 @@ function App() {
    <BrowserRouter>
    <Routes>
    <Route path="/" element={<Home />} />
+   <Route path="/products" element={<Products />} />
    </Routes>
    </BrowserRouter>
 
