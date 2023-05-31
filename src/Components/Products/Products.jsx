@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Products.scss";
 import { Pagination } from "antd";
+import { Link } from "react-router-dom";
 
 
 const Products = () => {
@@ -40,7 +41,7 @@ const Products = () => {
               <tr>
                 <th className="rowsHead">Title</th>
                 <th className="rowsHead">Category</th>
-                <th className="rowsHead">Price</th>
+                <th className="rowsHead">Price 💲</th>
               </tr>
             </thead>
             <tbody>
@@ -60,7 +61,9 @@ const Products = () => {
              pageSize={productsPerPage}
              onChange={handlePageChange}
           />
+          <Link to="/"><h2>Home</h2></Link>
           </div>
+          
         </>
       )
 }
